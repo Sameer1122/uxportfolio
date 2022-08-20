@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="relative z-20 flex flex-col items-center justify-between px-4 pt-6 bg-white md:pt-4 lg:bg-gray-100 lg:shadow-inner">
-      <div class="text-sm list-none w-full max-w-screen-xl md:flex md:flex-row md:justify-between md:items-center md:pb-8 gap-x-8 opacity-75 lg:gap-x-16">
-        <div class="md:mt-2 mb-4 lg:mt-6 lg:mb-8">
+    <footer className="relative z-20 flex flex-col items-center justify-between px-4 pt-6 bg-white md:pt-4 lg:bg-gray-100 lg:shadow-inner">
+      <div className="text-sm list-none w-full max-w-screen-xl md:flex md:flex-row md:justify-between md:items-center md:pb-8 gap-x-8 opacity-75 lg:gap-x-16">
+        <div className="md:mt-2 mb-4 lg:mt-6 lg:mb-8">
           <a href="/">
             <svg
               className="w-24"
@@ -32,53 +32,53 @@ const Footer = () => {
           </a>
         </div>
 
-        <div class="flex flex-col justify-left max-w-max gap-y-2 md:gap-y-0 md:flex-row md:gap-x-12">
-          <div class="inline-block relative">
-            <li class="relative z-10 text-sm font-medium lg:text-base lg:font-normal lg:hover:underline">
-              <a href="services.html" class="inline-block h-full w-full">
+        <div className="flex flex-col justify-left max-w-max gap-y-2 md:gap-y-0 md:flex-row md:gap-x-12">
+          <div className="inline-block relative">
+            <li className="relative z-10 text-sm font-medium lg:text-base lg:font-normal lg:hover:underline">
+              <a href="services.html" className="inline-block h-full w-full">
                 Services
               </a>
             </li>
-            <div class="absolute bottom-0 h-1 w-full bg-accent hidden md:absolute lg:hidden"></div>
+            <div className="absolute bottom-0 h-1 w-full bg-accent hidden md:absolute lg:hidden"></div>
           </div>
 
-          <div class="inline-block relative">
-            <li class="relative z-10 text-sm font-medium lg:text-base lg:font-normal lg:hover:underline">
+          <div className="inline-block relative">
+            <li className="relative z-10 text-sm font-medium lg:text-base lg:font-normal lg:hover:underline">
               <a
                 href="index.html#testimonials"
-                class="inline-block h-full w-full"
+                className="inline-block h-full w-full"
               >
                 Testimonials
               </a>
             </li>
-            <div class="absolute bottom-0 h-1 w-full bg-accent hidden md:absolute lg:hidden"></div>
+            <div className="absolute bottom-0 h-1 w-full bg-accent hidden md:absolute lg:hidden"></div>
           </div>
 
-          <div class="inline-block relative">
-            <li class="relative z-10 text-sm font-medium lg:text-base lg:font-normal lg:hover:underline">
+          <div className="inline-block relative">
+            <li className="relative z-10 text-sm font-medium lg:text-base lg:font-normal lg:hover:underline">
               <a
                 href="index.html#experience"
-                class="inline-block h-full w-full"
+                className="inline-block h-full w-full"
               >
                 Experience
               </a>
             </li>
-            <div class="absolute bottom-0 h-1 w-full bg-accent hidden md:absolute lg:hidden"></div>
+            <div className="absolute bottom-0 h-1 w-full bg-accent hidden md:absolute lg:hidden"></div>
           </div>
 
-          <div class="inline-block relative">
-            <li class="relative z-10 text-sm font-medium lg:text-base lg:font-normal lg:hover:underline">
-              <a href="contact.html" class="inline-block h-full w-full">
+          <div className="inline-block relative">
+            <li className="relative z-10 text-sm font-medium lg:text-base lg:font-normal lg:hover:underline">
+              <a href="contact.html" className="inline-block h-full w-full">
                 Contact
               </a>
             </li>
-            <div class="absolute bottom-0 h-1 w-full bg-accent hidden md:absolute lg:hidden"></div>
+            <div className="absolute bottom-0 h-1 w-full bg-accent hidden md:absolute lg:hidden"></div>
           </div>
         </div>
-        <div class="flex opacity-75 mt-2 mb-2 justify-end md:gap-x-2 md:mt-0 md:mb-0">
-          <a href="#" class="p-2 pl-0 inline-block md:pb-0">
+        <div className="flex opacity-75 mt-2 mb-2 justify-end md:gap-x-2 md:mt-0 md:mb-0">
+          <a href="#" className="p-2 pl-0 inline-block md:pb-0">
             <svg
-              class="w-4"
+              className="w-4"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -93,9 +93,9 @@ const Footer = () => {
             </svg>
           </a>
 
-          <a href="#" class="p-2 inline-block md:pb-0">
+          <a href="#" className="p-2 inline-block md:pb-0">
             <svg
-              class="w-4"
+              className="w-4"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -110,9 +110,9 @@ const Footer = () => {
             </svg>{" "}
           </a>
 
-          <a href="#" class="p-2 inline-block md:pb-0 md:pr-0">
+          <a href="#" className="p-2 inline-block md:pb-0 md:pr-0">
             <svg
-              class="w-4"
+              className="w-4"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -128,12 +128,12 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div class="flex flex-col items-center opacity-50 text-xs md:mb-2 lg:mb-6">
-        <div class="flex gap-x-4 mb-2">
+      <div className="flex flex-col items-center opacity-50 text-xs md:mb-2 lg:mb-6">
+        <div className="flex gap-x-4 mb-2">
           <a href="#">Terms & Conditions</a>
           <a href="#">Privacy Policy</a>
         </div>
-        <div class="font-medium mb-1">&copy FTM 2021</div>
+        <div className="font-medium mb-1">&copy FTM 2021</div>
       </div>
     </footer>
   );

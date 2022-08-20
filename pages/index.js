@@ -19,7 +19,7 @@ export default function Home() {
       <Experience />
       <How />
       <Projects />
-      <div class="overflow-hidden">
+      <div className="overflow-hidden">
         <Testimonials />
         <ContactUs />
       </div>

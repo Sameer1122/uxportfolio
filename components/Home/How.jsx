@@ -2,7 +2,7 @@ import React from "react";
 
 const How = () => {
   return (
-    <section id="#services" class="leading-loose relative">
+    <section id="#services" className="leading-loose relative">
       <div>
         <img
           src="images/bubbles_banner.png"
@@ -10,25 +10,25 @@ const How = () => {
         />
       </div>
 
-      <div class="text-center pt-8 pb-24 px-4 md:pt-12 lg:flex lg:flex-col lg:items-center lg:pb-48">
-        <h2 class="text-2xl font-bold md:text-3xl lg:text-4xl">
+      <div className="text-center pt-8 pb-24 px-4 md:pt-12 lg:flex lg:flex-col lg:items-center lg:pb-48">
+        <h2 className="text-2xl font-bold md:text-3xl lg:text-4xl">
           How I'll{" "}
-          <div class="relative inline-block z-20">
-            <div class="relative z-10">Grow</div>
-            <div class="absolute bottom-1 bg-accent h-3 w-full transform -rotate-6"></div>
+          <div className="relative inline-block z-20">
+            <div className="relative z-10">Grow</div>
+            <div className="absolute bottom-1 bg-accent h-3 w-full transform -rotate-6"></div>
           </div>{" "}
           Your Business
         </h2>
-        <p class="text-sm mt-5 md:mx-auto lg:text-md lg:mt-6">
+        <p className="text-sm mt-5 md:mx-auto lg:text-md lg:mt-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida
           rhoncus volutpat congue mattis sed mollis mollis.
         </p>
 
-        <div class="text-left mt-10 grid gap-y-12 md:grid-cols-2 md:gap-x-12 md:px-4 lg:gap-x-20 lg:mt-16">
+        <div className="text-left mt-10 grid gap-y-12 md:grid-cols-2 md:gap-x-12 md:px-4 lg:gap-x-20 lg:mt-16">
           <div>
             <div>
               <svg
-                class="-ml-2"
+                className="-ml-2"
                 width="48"
                 height="48"
                 viewBox="0 0 48 48"
@@ -49,11 +49,11 @@ const How = () => {
               </svg>
             </div>
 
-            <h3 class="mb-2 font-medium">
-              <b class="font-black">Designs</b> that impress
+            <h3 className="mb-2 font-medium">
+              <b className="font-black">Designs</b> that impress
             </h3>
 
-            <p class="leading-relaxed">
+            <p className="leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
               odio et scelerisque id arcu risus etiam metus. Arcu, mauris arcu
               morbi placerat in cursus dictum et. Mattis blandit lectus nisl
@@ -65,7 +65,7 @@ const How = () => {
           <div>
             <div>
               <svg
-                class="-ml-2"
+                className="-ml-2"
                 width="48"
                 height="48"
                 viewBox="0 0 48 48"
@@ -106,11 +106,11 @@ const How = () => {
               </svg>
             </div>
 
-            <h3 class="mb-2 font-medium">
-              <b class="font-black">Social Media</b> to attract crowds
+            <h3 className="mb-2 font-medium">
+              <b className="font-black">Social Media</b> to attract crowds
             </h3>
 
-            <p class="leading-relaxed">
+            <p className="leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
               odio et scelerisque id arcu risus etiam metus. Arcu, mauris arcu
               morbi placerat in cursus dictum et. Mattis blandit lectus nisl
@@ -122,7 +122,7 @@ const How = () => {
           <div>
             <div>
               <svg
-                class="-ml-2"
+                className="-ml-2"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -143,11 +143,11 @@ const How = () => {
               </svg>
             </div>
 
-            <h3 class="mb-2 font-medium">
-              <b class="font-black">Build Features</b> that matter
+            <h3 className="mb-2 font-medium">
+              <b className="font-black">Build Features</b> that matter
             </h3>
 
-            <p class="leading-relaxed">
+            <p className="leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
               odio et scelerisque id arcu risus etiam metus. Arcu, mauris arcu
               morbi placerat in cursus dictum et. Mattis blandit lectus nisl
@@ -159,7 +159,7 @@ const How = () => {
           <div>
             <div>
               <svg
-                class="-ml-2"
+                className="-ml-2"
                 width="48"
                 height="48"
                 viewBox="0 0 48 48"
@@ -180,11 +180,11 @@ const How = () => {
               </svg>
             </div>
 
-            <h3 class="mb-2 font-medium">
-              <b class="font-black">Designs</b> that impress
+            <h3 className="mb-2 font-medium">
+              <b className="font-black">Designs</b> that impress
             </h3>
 
-            <p class="leading-relaxed">
+            <p className="leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
               odio et scelerisque id arcu risus etiam metus. Arcu, mauris arcu
               morbi placerat in cursus dictum et. Mattis blandit lectus nisl

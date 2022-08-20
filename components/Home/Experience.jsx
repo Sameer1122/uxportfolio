@@ -2,13 +2,13 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section class="flex flex-col items-center py-16 px-4 shadow-inner bg-gray-100 lg:py-24">
-      <h2 class="uppercase text-xs font-medium lg:text-base">
+    <section className="flex flex-col items-center py-16 px-4 shadow-inner bg-gray-100 lg:py-24">
+      <h2 className="uppercase text-xs font-medium lg:text-base">
         Equipped with the experience that matters
       </h2>
-      <div class="grid auto-cols-min grid-flow-col grid-rows-2 gap-y-4 gap-x-6 mt-6 mb-8 lg:gap-x-12 lg:gap-y-8 lg:mt-10 lg:mb-12">
+      <div className="grid auto-cols-min grid-flow-col grid-rows-2 gap-y-4 gap-x-6 mt-6 mb-8 lg:gap-x-12 lg:gap-y-8 lg:mt-10 lg:mb-12">
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 26 26"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ const Experience = () => {
           />
         </svg>
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 26 26"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ const Experience = () => {
           </defs>
         </svg>
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 26 26"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const Experience = () => {
           </defs>
         </svg>
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 26 26"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ const Experience = () => {
           </defs>
         </svg>
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ const Experience = () => {
           />
         </svg>
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const Experience = () => {
           </defs>
         </svg>
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 26 26"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ const Experience = () => {
           </defs>
         </svg>
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +139,7 @@ const Experience = () => {
           />
         </svg>
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +152,7 @@ const Experience = () => {
         </svg>
 
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +165,7 @@ const Experience = () => {
         </svg>
 
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@ const Experience = () => {
         </svg>
 
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@ const Experience = () => {
         </svg>
 
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 26 26"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -218,7 +218,7 @@ const Experience = () => {
         </svg>
 
         <svg
-          class="w-5 lg:w-8"
+          className="w-5 lg:w-8"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +238,7 @@ const Experience = () => {
         </svg>
 
         <svg
-          class="w-5 lg:w-8 hidden md:inline-block"
+          className="w-5 lg:w-8 hidden md:inline-block"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -257,7 +257,7 @@ const Experience = () => {
           </defs>
         </svg>
         <svg
-          class="w-5 lg:w-8 hidden md:inline-block"
+          className="w-5 lg:w-8 hidden md:inline-block"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -270,11 +270,11 @@ const Experience = () => {
         </svg>
       </div>
 
-      <p class="text-xs text-center lg:text-base">
+      <p className="text-xs text-center lg:text-base">
         Hired by creative agencies and ambitious clients like{" "}
-        <span class="font-medium text-accent2">THORChain,</span>
-        <span class="font-medium text-accent2">Illuvium</span>, and{" "}
-        <span class="font-medium text-accent2">Arsenal F.C.</span>
+        <span className="font-medium text-accent2">THORChain,</span>
+        <span className="font-medium text-accent2">Illuvium</span>, and{" "}
+        <span className="font-medium text-accent2">Arsenal F.C.</span>
       </p>
     </section>
   );

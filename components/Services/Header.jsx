@@ -2,30 +2,30 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section class="px-8 lg:px-0 lg:relative lg:flex lg:justify-center xl:max-w-screen-2xl xl:mx-auto">
+    <section className="px-8 lg:px-0 lg:relative lg:flex lg:justify-center xl:max-w-screen-2xl xl:mx-auto">
       {/* For centering the div */}
       <div>
-        <div class="pt-4 pb-16 md:grid md:grid-cols-2 md:gap-x-8 md:place-items-center lg:pt-8 lg:pb-20 lg:flex lg:items-center lg:justify-center">
-          <div class="pt-8 mx-auto lg:w-1/3 lg:py-24">
-            <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl">
+        <div className="pt-4 pb-16 md:grid md:grid-cols-2 md:gap-x-8 md:place-items-center lg:pt-8 lg:pb-20 lg:flex lg:items-center lg:justify-center">
+          <div className="pt-8 mx-auto lg:w-1/3 lg:py-24">
+            <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl">
               Our Services
             </h1>
-            <p class="mt-4 text-sm opacity-75 md:pr-4 lg:mt-8 md:text-lg lg:text-2xl">
+            <p className="mt-4 text-sm opacity-75 md:pr-4 lg:mt-8 md:text-lg lg:text-2xl">
               Here we show you what we can offer you for a glimpse into what
               makes us successful.
             </p>
           </div>
 
-          <div class="pt-12 lg:pt-0">
-            <h2 class="inline-block uppercase opacity-75 text-xs font-light italic lg:text-sm lg:pb-4">
+          <div className="pt-12 lg:pt-0">
+            <h2 className="inline-block uppercase opacity-75 text-xs font-light italic lg:text-sm lg:pb-4">
               Things We're Great At
             </h2>
 
-            <div class="grid gap-y-4 md:gap-y-0  md:grid-cols-2 md:gap-x-12 lg:gap-y-12">
+            <div className="grid gap-y-4 md:gap-y-0  md:grid-cols-2 md:gap-x-12 lg:gap-y-12">
               <div>
                 <div>
                   <svg
-                    class="-ml-2 w-8 lg:w-auto"
+                    className="-ml-2 w-8 lg:w-auto"
                     width="48"
                     height="48"
                     viewBox="0 0 48 48"
@@ -46,15 +46,15 @@ const Header = () => {
                   </svg>
                 </div>
 
-                <h3 class="mb-2 font-medium text-sm -mt-2 lg:text-base lg:mt-0">
-                  <b class="font-black">Designs</b> that impress
+                <h3 className="mb-2 font-medium text-sm -mt-2 lg:text-base lg:mt-0">
+                  <b className="font-black">Designs</b> that impress
                 </h3>
               </div>
 
               <div>
                 <div>
                   <svg
-                    class="-ml-2 w-8 lg:w-auto"
+                    className="-ml-2 w-8 lg:w-auto"
                     width="48"
                     height="48"
                     viewBox="0 0 48 48"
@@ -95,15 +95,15 @@ const Header = () => {
                   </svg>
                 </div>
 
-                <h3 class="mb-2 font-medium text-sm -mt-2 lg:text-base lg:mt-0">
-                  <b class="font-black">SEO</b> to attract the right crowds
+                <h3 className="mb-2 font-medium text-sm -mt-2 lg:text-base lg:mt-0">
+                  <b className="font-black">SEO</b> to attract the right crowds
                 </h3>
               </div>
 
               <div>
                 <div>
                   <svg
-                    class="-ml-2 w-8 lg:w-auto"
+                    className="-ml-2 w-8 lg:w-auto"
                     width="48"
                     height="49"
                     viewBox="0 0 48 49"
@@ -124,15 +124,15 @@ const Header = () => {
                   </svg>
                 </div>
 
-                <h3 class="mb-2 font-medium text-sm -mt-2 lg:text-base lg:mt-0">
-                  <b class="font-black">Features</b> that matter
+                <h3 className="mb-2 font-medium text-sm -mt-2 lg:text-base lg:mt-0">
+                  <b className="font-black">Features</b> that matter
                 </h3>
               </div>
 
               <div>
                 <div>
                   <svg
-                    class="-ml-2 w-8 lg:w-auto"
+                    className="-ml-2 w-8 lg:w-auto"
                     width="48"
                     height="48"
                     viewBox="0 0 48 48"
@@ -153,8 +153,8 @@ const Header = () => {
                   </svg>
                 </div>
 
-                <h3 class="mb-2 font-medium text-sm -mt-2 lg:text-base lg:mt-0">
-                  <b class="font-black">Copywriting</b> that convinces
+                <h3 className="mb-2 font-medium text-sm -mt-2 lg:text-base lg:mt-0">
+                  <b className="font-black">Copywriting</b> that convinces
                 </h3>
               </div>
             </div>

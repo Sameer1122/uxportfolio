@@ -4,32 +4,32 @@ const ContactUs = () => {
   return (
     <section
       id="contact"
-      class="relative mb-8 md:flex md:justify-center md:pb-16"
+      className="relative mb-8 md:flex md:justify-center md:pb-16"
     >
-      <div class="relative z-20">
-        <h2 class="relative text-2xl font-bold text-center my-16 md:text-left md:pl-12 md:text-3xl xl:pl-0 xl:text-center">
+      <div className="relative z-20">
+        <h2 className="relative text-2xl font-bold text-center my-16 md:text-left md:pl-12 md:text-3xl xl:pl-0 xl:text-center">
           Let's Get to Work Today
         </h2>
 
-        <div class="px-12">
+        <div className="px-12">
           <form
             name="contact"
             data-netlify="true"
             autocomplete="off"
             netlify-honeypot="bot-field"
-            class="md:h-full md:flex md:items-end md:gap-x-6"
+            className="md:h-full md:flex md:items-end md:gap-x-6"
           >
-            <p class="hidden">
+            <p className="hidden">
               <label>
                 Don’t fill this out if you’re human: <input name="bot-field" />
               </label>
             </p>
 
-            <div class="md:flex md:gap-x-4">
-              <div class="md:flex md:flex-col md:gap-y-4">
-                <div class="border-2 py-3 px-2 mb-4 border-black md:mb-0 bg-white">
+            <div className="md:flex md:gap-x-4">
+              <div className="md:flex md:flex-col md:gap-y-4">
+                <div className="border-2 py-3 px-2 mb-4 border-black md:mb-0 bg-white">
                   <input
-                    class="bg-transparent placeholder-black"
+                    className="bg-transparent placeholder-black"
                     type="text"
                     id="name"
                     name="name"
@@ -38,9 +38,9 @@ const ContactUs = () => {
                     placeholder="Name..."
                   />
                 </div>
-                <div class="border-2 py-3 px-2 mb-4 border-black md:mb-0 bg-white">
+                <div className="border-2 py-3 px-2 mb-4 border-black md:mb-0 bg-white">
                   <input
-                    class="bg-transparent placeholder-black"
+                    className="bg-transparent placeholder-black"
                     type="email"
                     id="email"
                     name="email"
@@ -50,9 +50,9 @@ const ContactUs = () => {
                 </div>
               </div>
 
-              <div class="border-2 py-3 px-2 mb-8 border-black md:mb-0 bg-white">
+              <div className="border-2 py-3 px-2 mb-8 border-black md:mb-0 bg-white">
                 <textarea
-                  class="h-full bg-transparent placeholder-black"
+                  className="h-full bg-transparent placeholder-black"
                   name="question"
                   placeholder="Your Question"
                   id="question"
@@ -64,32 +64,32 @@ const ContactUs = () => {
               </div>
             </div>
 
-            <div class="relative md:flex md:flex-col md:items-center">
+            <div className="relative md:flex md:flex-col md:items-center">
               <button
                 type="submit"
                 id="submit-button"
-                class="inline-block uppercase font-medium px-6 py-2 bg-black text-white shadow-md"
+                className="inline-block uppercase font-medium px-6 py-2 bg-black text-white shadow-md"
               >
                 Send
               </button>
 
               <span
                 id="success"
-                class="hidden absolute px-2 mx-1 py-2 font-medium border italic rounded-sm border-black bg-accent text-black top-0 md:px-4 md:mx-0 md:w-max md:-top-12 md:left-0"
+                className="hidden absolute px-2 mx-1 py-2 font-medium border italic rounded-sm border-black bg-accent text-black top-0 md:px-4 md:mx-0 md:w-max md:-top-12 md:left-0"
               >
                 We'll be in touch!
               </span>
               <span
                 id="error"
-                class="hidden absolute px-2 mx-1 py-2 font-medium border italic rounded-sm border-black bg-accent2Light text-black top-0 md:px-4 md:mx-0 md:w-max md:-top-12 md:left-0"
+                className="hidden absolute px-2 mx-1 py-2 font-medium border italic rounded-sm border-black bg-accent2Light text-black top-0 md:px-4 md:mx-0 md:w-max md:-top-12 md:left-0"
               >
                 Whoops... Something went wrong.
               </span>
 
-              <div class="opacity-75 mt-2 md:mt-0">
-                <a href="#" class="p-2 pl-0 inline-block md:pb-0">
+              <div className="opacity-75 mt-2 md:mt-0">
+                <a href="#" className="p-2 pl-0 inline-block md:pb-0">
                   <svg
-                    class="w-4"
+                    className="w-4"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
@@ -104,9 +104,9 @@ const ContactUs = () => {
                   </svg>
                 </a>
 
-                <a href="#" class="p-2 inline-block md:pb-0">
+                <a href="#" className="p-2 inline-block md:pb-0">
                   <svg
-                    class="w-4"
+                    className="w-4"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
@@ -121,9 +121,9 @@ const ContactUs = () => {
                   </svg>{" "}
                 </a>
 
-                <a href="#" class="p-2 inline-block md:pb-0 md:pr-0">
+                <a href="#" className="p-2 inline-block md:pb-0 md:pr-0">
                   <svg
-                    class="w-4"
+                    className="w-4"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
@@ -144,17 +144,17 @@ const ContactUs = () => {
       </div>
 
       <img
-        class="absolute transform scale-200 top-20 z-10 md:scale-175 md:top-40 md:right-20 lg:top-112 xl:scale-75 xl:top-auto xl:bottom-auto"
+        className="absolute transform scale-200 top-20 z-10 md:scale-175 md:top-40 md:right-20 lg:top-112 xl:scale-75 xl:top-auto xl:bottom-auto"
         src="images/accent_bubble-contact.png"
         alt="Green decorative background"
       />
 
       <img
-        class="absolute transform scale-200 top-40 left-60 z-0 md:scale-150 md:top-20 md:left-80 lg:top-32 lg:right-0 lg:left-auto xl:opacity-90 xl:top-48"
+        className="absolute transform scale-200 top-40 left-60 z-0 md:scale-150 md:top-20 md:left-80 lg:top-32 lg:right-0 lg:left-auto xl:opacity-90 xl:top-48"
         src="images/accent_bubble-2-contact.png"
         alt="Red decorative background"
       />
-      <div class="absolute ml-8 -top-60 bottom-0 w-1 border-l-2 border-accent z-10 md:hidden"></div>
+      <div className="absolute ml-8 -top-60 bottom-0 w-1 border-l-2 border-accent z-10 md:hidden"></div>
     </section>
   );
 };
