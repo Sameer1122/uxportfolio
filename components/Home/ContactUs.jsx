@@ -77,7 +77,7 @@ const ContactUs = () => {
                 id="success"
                 className="hidden absolute px-2 mx-1 py-2 font-medium border italic rounded-sm border-black bg-accent text-black top-0 md:px-4 md:mx-0 md:w-max md:-top-12 md:left-0"
               >
-                We'll be in touch!
+                We will be in touch!
               </span>
               <span
                 id="error"

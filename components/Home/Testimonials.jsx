@@ -16,13 +16,13 @@ const Testimonials = () => {
           <div className="py-24 relative z-20 md:px-20 md:pt-16 lg:flex lg:flex-wrap lg:max-w-screen lg:pt-8 lg:justify-center lg:gap-12">
             <div className="relative border border-opacity-5 border-b-0 shadow-md mx-4 mb-24 grid grid-cols-8 px-4 py-8 bg-white md:mb-28 lg:px-12 lg:mb-0 lg:w-2/3 lg:max-w-lg lg:mx-0">
               <p className="text-sm col-start-1 col-end-6 z-10 italic md:hidden lg:text-lg">
-                “Lorem ipsum dolor sit amet, consem tetur adipiscing elit.“
+                Lorem ipsum dolor sit amet, consem tetur adipiscing elit.
               </p>
 
               <p className="text-sm col-start-1 col-end-6 z-10 italic hidden md:inline-block md:px-3 lg:text-lg">
-                "Lorem ipsum dolor sit amet, consem tetur adipiscing elit. Neque
+                Lorem ipsum dolor sit amet, consem tetur adipiscing elit. Neque
                 egestas enim, porttitor sed a diam. Posuere ante faucibus tellus
-                sed."
+                sed.
               </p>
 
               <div className="relative col-start-6 col-end-9 overflow-visible">
@@ -44,13 +44,13 @@ const Testimonials = () => {
 
             <div className="relative border border-opacity-5 border-b-0 shadow-md mx-4 mb-24 grid grid-cols-8 px-4 py-8 bg-white md:mb-28 lg:px-12 lg:mb-0 lg:w-2/3 lg:max-w-lg lg:mx-0">
               <p className="text-sm col-start-4 col-end-10 z-10 italic md:hidden lg:text-lg">
-                “Lorem ipsum dolor sit amet, consem tetur adipiscing elit.“
+                Lorem ipsum dolor sit amet, consem tetur adipiscing elit.
               </p>
 
               <p className="text-sm col-start-4 col-end-10 z-10 italic hidden md:inline-block md:px-3 lg:text-lg">
-                "Lorem ipsum dolor sit amet, consem tetur adipiscing elit. Neque
+                Lorem ipsum dolor sit amet, consem tetur adipiscing elit. Neque
                 egestas enim, porttitor sed a diam. Posuere ante faucibus tellus
-                sed."
+                sed.
               </p>
 
               <div className="relative col-start-1 col-end-4 overflow-visible">
@@ -72,13 +72,13 @@ const Testimonials = () => {
 
             <div className="relative border border-opacity-5 border-b-0 shadow-md mx-4 mb-24 grid grid-cols-8 px-4 py-8 bg-white md:mb-28 lg:px-12 lg:mb-0 lg:w-2/3 lg:max-w-lg lg:mx-0">
               <p className="text-sm col-start-1 col-end-6 z-10 italic md:hidden lg:text-lg">
-                “Lorem ipsum dolor sit amet, consem tetur adipiscing elit.“
+                Lorem ipsum dolor sit amet, consem tetur adipiscing elit.
               </p>
 
               <p className="text-sm col-start-1 col-end-6 z-10 italic hidden md:inline-block md:px-3 lg:text-lg">
-                "Lorem ipsum dolor sit amet, consem tetur adipiscing elit. Neque
+                Lorem ipsum dolor sit amet, consem tetur adipiscing elit. Neque
                 egestas enim, porttitor sed a diam. Posuere ante faucibus tellus
-                sed."
+                sed.
               </p>
 
               <div className="relative col-start-6 col-end-9 overflow-visible">
