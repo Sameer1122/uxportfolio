@@ -76,7 +76,7 @@ const Navbar = () => {
       >
         <div className="absolute grid grid-cols-3 w-full place-items-center pt-4">
           <div className=" col-start-2 col-end-3">
-            <a href="/" className="inline-block">
+            <Link href="/" className="inline-block">
               <svg
                 className="w-24"
                 width="83"
@@ -104,7 +104,7 @@ const Navbar = () => {
                   fill="#777676"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
 
           <button
@@ -153,7 +153,7 @@ const Navbar = () => {
 
           <div className="relative mt-24">
             <div className="relative opacity-75 pt-8 z-10">
-              <a href="#" className="p-2 mx-2 pl-0 inline-block">
+              <Link href="#" className="p-2 mx-2 pl-0 inline-block">
                 <svg
                   className="w-6"
                   width="24"
@@ -168,9 +168,9 @@ const Navbar = () => {
                     fill="black"
                   />
                 </svg>
-              </a>
+              </Link>
 
-              <a href="#" className="p-2 mx-2 inline-block">
+              <Link href="#" className="p-2 mx-2 inline-block">
                 <svg
                   className="w-6"
                   width="24"
@@ -185,9 +185,9 @@ const Navbar = () => {
                     fill="black"
                   />
                 </svg>{" "}
-              </a>
+              </Link>
 
-              <a href="#" className="p-2 mx-2 inline-block">
+              <Link href="#" className="p-2 mx-2 inline-block">
                 <svg
                   className="w-6"
                   width="24"
@@ -202,7 +202,7 @@ const Navbar = () => {
                     fill="black"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
 
             <img
