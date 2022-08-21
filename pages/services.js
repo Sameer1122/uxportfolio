@@ -5,11 +5,13 @@ import Services from "../components/Services/Services";
 
 const services = () => {
   return (
-    <main>
-      <Header />
-      <Services />
-      <ContactUs />
-    </main>
+    <>
+      <main>
+        <Header />
+        <Services />
+        <ContactUs />
+      </main>
+    </>
   );
 };
 
