@@ -8,14 +8,14 @@ const ContactUs = () => {
     >
       <div className="relative z-20">
         <h2 className="relative text-2xl font-bold text-center my-16 md:text-left md:pl-12 md:text-3xl xl:pl-0 xl:text-center">
-          Let's Get to Work Today
+          Let us Get to Work Today
         </h2>
 
         <div className="px-12">
           <form
             name="contact"
             data-netlify="true"
-            autocomplete="off"
+            autoComplete="off"
             netlify-honeypot="bot-field"
             className="md:h-full md:flex md:items-end md:gap-x-6"
           >

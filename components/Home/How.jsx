@@ -12,7 +12,7 @@ const How = () => {
 
       <div className="text-center pt-8 pb-24 px-4 md:pt-12 lg:flex lg:flex-col lg:items-center lg:pb-48">
         <h2 className="text-2xl font-bold md:text-3xl lg:text-4xl">
-          How I'll{" "}
+          How I will{" "}
           <div className="relative inline-block z-20">
             <div className="relative z-10">Grow</div>
             <div className="absolute bottom-1 bg-accent h-3 w-full transform -rotate-6"></div>
