@@ -18,7 +18,7 @@ const Header = () => {
 
           <div className="pt-12 lg:pt-0">
             <h2 className="inline-block uppercase opacity-75 text-xs font-light italic lg:text-sm lg:pb-4">
-              Things We're Great At
+              Things We are Great At
             </h2>
 
             <div className="grid gap-y-4 md:gap-y-0  md:grid-cols-2 md:gap-x-12 lg:gap-y-12">
